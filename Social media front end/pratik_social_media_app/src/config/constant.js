@@ -1,0 +1,1 @@
+export const cloud_name="dcs76yyb9";

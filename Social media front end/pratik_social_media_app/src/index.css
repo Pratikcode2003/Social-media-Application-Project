@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #090a0d;
+}
+
+/* Hide scrollbar for all browsers */
+.hideScrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.hideScrollbar::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Opera */
+}
